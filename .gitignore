@@ -1,0 +1,21 @@
+# Virtual Environment
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model files
+models/*.pkl
+
+# Data
+data/interim/
+data/processed/
+
+# Logs
+*.log
