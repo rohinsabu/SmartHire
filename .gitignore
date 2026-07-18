@@ -4,18 +4,23 @@ venv/
 
 # Python
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
 
 # Jupyter
 .ipynb_checkpoints/
 
-# Model files
-models/*.pkl
+# Data (all datasets)
+data/
 
-# Data
-data/interim/
-data/processed/
+# Trained models
+models/*.pkl
 
 # Logs
 *.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code (optional)
+.vscode/
